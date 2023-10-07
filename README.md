@@ -10,33 +10,15 @@ This repository contains three command-line interface (CLI) programs written in 
 ### Description
 This program showcases the different stages of PocketAES encryption. It prompts the user for a text block and a key, both in 16-bit hexadecimal format. Then, it computes and displays the outputs of the SubNibbles, ShiftRow, MixColumns, and GenerateRoundKeys operations on these inputs.
 
-### Usage
-To run this program, execute the following command:
-```bash
-python program1.py
-```
-
 ## Program 2: PocketAES Block Decryption
 
 ### Description
 This program decrypts a single block of ciphertext using the PocketAES algorithm described in Section A. It receives the ciphertext and the encryption key as hexadecimal inputs from the user and outputs the decrypted block in the same hexadecimal format.
 
-### Usage
-To run this program, execute the following command:
-```bash
-python program2.py
-```
-
 ## Program 3: ASCII Text Decryption
 
 ### Description
 This program implements the ASCII text decryption scheme defined in Section B. It reads encrypted text from a file named 'secret.txt,' decrypts it using the provided encryption key, and creates an output file named 'plain.txt.' The input contains a series of ciphertext blocks in hexadecimal format, and the output data is in ASCII text. The program handles null padding that may be present in the ciphertext.
-
-### Usage
-To run this program, execute the following command:
-```bash
-python program3.py
-```
 
 ## Security Analysis
 ### Description
