@@ -1,6 +1,3 @@
-# PocketAES
-This project consists of Python programs for implementing encryption and decryption using the PocketAES algorithm, including single block encryption, decryption, and decryption of ASCII text with user-provided keys and input.
-
 # PocketAES CLI Programs
 
 This repository contains three command-line interface (CLI) programs written in Python to demonstrate various aspects of the PocketAES encryption algorithm. PocketAES is used for encryption and decryption tasks, including handling individual blocks of data and decrypting ASCII text.
